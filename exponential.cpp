@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Binary Search Implementation for Exponential Search
+// Binary Search Implementation for Exponential Searchs
 int binarySearch(int arr[], int low, int high, int target) 
 {
     while (low <= high) 
