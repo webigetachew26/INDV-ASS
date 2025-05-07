@@ -187,7 +187,7 @@ Sorted Array (Quick Sort): 1 3 5 11 12 22 25 34 64 90
    - Base case: when subarray has 0 or 1 elements
 3. printArray() function:
    - Utility function to display array contents 
-   
+
 # Iterative-and-Recursive-Approach-in-Algorism 
 # Binary Search Implementation (Iterative & Recursive)
 1. Iterative approach (iBs)
@@ -295,6 +295,7 @@ g++ jump_search.cpp -o jump_search
 3. Expected Output (for default values):
 Target found at index: 3
 ## How the Code Works
+
 1. jumpSearch() Function:
    - Takes sorted array, size, and target as input
    - Implements the jump search algorithm
