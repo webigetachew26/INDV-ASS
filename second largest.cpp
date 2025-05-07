@@ -29,7 +29,7 @@ int findSecondLargest(int numbers[], int size) {
 }
 
 int main() {
-    int numbers[] = {34, 15, 88, 2, 7};
+    int numbers[] = {34,15,88,2,7};
     int size = sizeof(numbers) / sizeof(numbers[0]); 
 
     int secondLargest = findSecondLargest(numbers, size);
