@@ -19,7 +19,7 @@ int iBs(int arr[], int size, int target) // iBs is represented by Iterative bina
     return -1; // Target not found
 }
 
-int rBs(int arr[], int low, int high, int target) // rBs is represented by Recursive inary search
+int rBs(int arr[], int low, int high, int target) // rBs is represented by Recursive binary search
 {
     if (low > high) {
         return -1; // Base case: target not found
