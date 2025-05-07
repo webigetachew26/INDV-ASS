@@ -39,7 +39,7 @@ int main() {
 
     int thirdLargest = findThirdLargest(numbers, size);
     if (thirdLargest != -1) {
-        cout << "The third largest number is: " << thirdLargest << endl;
+        cout << "The third largest number is: " << thirdLargest;
     }
 
     return 0;
