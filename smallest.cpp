@@ -12,7 +12,7 @@ int findSmallest(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {120, 45, 67, 89, 34, 23, 90, 11};
+    int arr[] = {120,45,67,89,34,23,90,11};
     int size = sizeof(arr) / sizeof(arr[0]); 
 
     int smallest = findSmallest(arr, size);
