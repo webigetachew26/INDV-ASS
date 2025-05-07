@@ -23,7 +23,7 @@ void quickSort(int* arr, int low, int high) {
         // Partitioning index
         int pi = partition(arr, low, high);
 
-        // Recursively sort elements before and after partition
+        // Recursively sort elements before and after partitions
         quickSort(arr, low, pi - 1);
         quickSort(arr, pi + 1, high);
     }
