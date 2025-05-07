@@ -31,7 +31,7 @@ public:
     {
         int index = hashFunction(key);
         while (table[index] != -1) 
-        { // Linear probing for collision resolution
+        { // Linear probing for collision resolutions
             index = (index + 1) % size;
         }
         table[index] = key;
